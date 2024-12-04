@@ -136,8 +136,8 @@ function App() {
         </div>
       </div>
 
-      <div className='w-full h-auto overflow-hidden p-4 flex pt-16'>
-        <div className="w-1/2">
+      <div className='w-full h-auto overflow-hidden p-4 lg:flex pt-16'>
+        <div className="lg:w-1/2">
           <h2 
             className="text-zinc-300 font-semibold text-4xl pb-9 pt-4"
             style={{lineHeight: 1.1}}
@@ -170,7 +170,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-1/2 bg-stone-800/50 px-4 rounded-lg py-12">
+        <div className="lg:w-1/2 bg-stone-800/50 px-4 rounded-lg py-12">
         <h2 
             className="text-zinc-300 font-semibold text-4xl"
             style={{lineHeight: 1.1}}
